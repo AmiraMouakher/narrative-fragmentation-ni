@@ -83,6 +83,7 @@ Use the manuscript title and author list below. Publication details for this man
 @unpublished{morgado_narrative_fragmentation,
   author = {Morgado, Nuno and Mouakher, Amira and Sz{\'a}nt{\'o}, Zolt{\'a}n Oszk{\'a}r},
   title = {Political Instability and Narrative Fragmentation as a Coupled System: An {AI}-Enabled Analysis of Northern Ireland},
+journal ={Humanities and Social Sciences Communications},
   note = {Research manuscript; accompanying analysis code}
 }
 ```
