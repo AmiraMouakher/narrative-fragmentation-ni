@@ -19,7 +19,7 @@ Research code accompanying **Political Instability and Narrative Fragmentation a
 
 The study examines how political instability and disagreement among geopolitical agents relate to fragmentation in news coverage of Northern Ireland over **February 2015–December 2025 (131 months)**. Narrative fragmentation is operationalized using Shannon entropy of monthly GDELT theme distributions.
 
-> **Release status:** code, frozen CSV extracts and source PSNI workbook included. PSNI extraction was reproduced exactly; the two statistical notebooks have not been executed end to end. See the [data inventory](data/README.md) and [methodological review notes](docs/REPRODUCIBILITY.md) and [validation report](docs/VALIDATION.md).
+> **Release status:** code, frozen CSV extracts and source PSNI workbook included. All three notebooks execute end to end from the bundled inputs and reproduce the manuscript's figures and statistics. See the [data inventory](data/README.md) and [methodological review notes](docs/REPRODUCIBILITY.md) and [validation report](docs/VALIDATION.md).
 
 This is a research analysis, not a live monitoring service or a fact-checking classifier. Theme diversity does not identify false claims. Predictive associations do not establish causality. The manuscript reports that the association does not persist with media-independent instability measures.
 
