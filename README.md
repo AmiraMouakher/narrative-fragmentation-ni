@@ -60,7 +60,7 @@ Queries are provided as received and are not executed by default. Check their da
 
 ### Embedding model
 
-Notebook 02 loads `all-MiniLM-L6-v2` through Sentence Transformers. The first run needs internet access to download the model, unless it is already cached. The supplied implementation embeds **GDELT theme labels**, not article bodies. See the reproducibility notes before describing this as independent news-content validation.
+Notebook 02 loads `all-MiniLM-L6-v2` through Sentence Transformers. The first run needs internet access to download the model, unless it is already cached. The supplied implementation embeds the monthly GDELT theme labels (not article bodies); see the reproducibility notes for details.
 
 ## Project files
 
