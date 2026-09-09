@@ -1,13 +1,10 @@
-__pycache__/
-*.py[cod]
-.ipynb_checkpoints/
-.venv/
-venv/
-.env
 .DS_Store
-Thumbs.db
-*.log
-
-# Local scratch/output directories
-output/
-outputs/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+.env.*
+*.pem
+*credentials*.json
+*service-account*.json
+results/*.csv
