@@ -1,0 +1,79 @@
+[
+  {
+    "file": "events_monthly_northern_ireland.csv",
+    "rows": 194,
+    "columns": [
+      "month",
+      "violence",
+      "repression",
+      "security",
+      "total_events",
+      "elite_coop",
+      "elite_conflict"
+    ],
+    "sha256": "1f5bd3ad312ea43e66f6a6d65299435a08416d5c262bde0fddac1e5222755b8d",
+    "start": "1920-01-01",
+    "end": "2026-07-01",
+    "months": 194,
+    "missing_cells": 0
+  },
+  {
+    "file": "kg_theme_counts_northern_ireland.csv",
+    "rows": 571328,
+    "columns": [
+      "month",
+      "theme",
+      "mentions"
+    ],
+    "sha256": "9e6fea7e35250a19c36c0b5fd99a5bac9bb0a6959b165c4a31dc37f8b4430592",
+    "start": "2015-02-01",
+    "end": "2026-07-01",
+    "months": 138,
+    "missing_cells": 138
+  },
+  {
+    "file": "kg_theme_counts_northern_ireland_STRICT.csv",
+    "rows": 570859,
+    "columns": [
+      "month",
+      "theme",
+      "mentions"
+    ],
+    "sha256": "b4411e931bf83145dd86e2f7384dcf38be7fb3931cae7df4c7994090d084a558",
+    "start": "2015-02-01",
+    "end": "2026-07-01",
+    "months": 138,
+    "missing_cells": 138
+  },
+  {
+    "file": "monthly_news_text_with_volatility.csv",
+    "rows": 138,
+    "columns": [
+      "month",
+      "text",
+      "LLM_volatility"
+    ],
+    "sha256": "fbdd1f978abee4337ee8575f23335d641fcd8bac9baf154ba109d61919b259e5",
+    "start": "2015-02-01",
+    "end": "2026-07-01",
+    "months": 138,
+    "missing_cells": 0
+  },
+  {
+    "file": "psni_monthly.csv",
+    "rows": 131,
+    "columns": [
+      "month",
+      "psni_shootings",
+      "psni_bombings",
+      "psni_para_shootings",
+      "psni_para_assaults",
+      "psni_s41_arrests"
+    ],
+    "sha256": "24e9e901b22d1f0ae9c0386a58be72799b6439cac35b1593fd1bd186ff0e0cc1",
+    "start": "2015-02-01",
+    "end": "2025-12-01",
+    "months": 131,
+    "missing_cells": 0
+  }
+]
