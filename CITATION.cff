@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using this research code."
+title: "Political Instability and Narrative Fragmentation as a Coupled System: An AI-Enabled Analysis of Northern Ireland"
+type: software
+authors:
+  - family-names: Morgado
+    given-names: Nuno
+  - family-names: Mouakher
+    given-names: Amira
+  - family-names: Szántó
+    given-names: Zoltán Oszkár
+abstract: "Research notebooks for analysis of political instability and narrative fragmentation in Northern Ireland. Frozen inputs are bundled; see reproducibility notes."
+license: MIT
