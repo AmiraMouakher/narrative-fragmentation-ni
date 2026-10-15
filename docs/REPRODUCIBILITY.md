@@ -6,11 +6,11 @@ Full execution of notebook 01 with exact agreement to the supplied PSNI CSV; stu
 
 ## Not verified
 
-End-to-end execution of notebooks 02 and 03, numerical agreement with the paper, BigQuery extraction, the original package versions, source-data rights, and model-download reproducibility. The required datasets are now bundled. The execution environment lacks statsmodels and sentence-transformers, so full execution was not possible here. Static CI does not certify scientific replication.
+BigQuery extraction, source-data rights, and recomputation of the embedding series (the model download was not available in the checking environment; the saved series was used). Notebooks 02 and 03 were executed end to end on 15 October 2026 with `requirements-lock.txt`, and every statistic reported in the manuscript reproduces; see `docs/VALIDATION.md`.
 
 ## Scientific issues requiring author review
 
-1. **Embedding validation:** notebook 02 builds monthly strings from `kg.groupby("month")["theme"]` and encodes theme labels. It does not independently encode article text. Its output name `monthly_news_text_with_volatility.csv` is retained for compatibility but can be misleading. Supply the actual news-text validation implementation or revise the manuscript claim. No scientific method was silently substituted.
+1. **Embedding validation** (resolved in the manuscript, which now states that theme labels, not article text, are embedded): notebook 02 builds monthly strings from `kg.groupby("month")["theme"]` and encodes theme labels. It does not independently encode article text. Its output name `monthly_news_text_with_volatility.csv` is retained for compatibility but can be misleading. Supply the actual news-text validation implementation or revise the manuscript claim. No scientific method was silently substituted.
 2. **Rank-deficient PSNI local projection:** notebook 03 includes both `shock_l1` and `s_l1`, each equal to the same lagged standardized PSNI series. This duplicates a regressor. The original specification is retained for traceability; remove one copy and rerun the estimates before using the coefficient or standard error in the paper.
 3. **Joint tests:** the notebook 03 joint test is a distributed-lag test, not a joint test across all local-projection horizons. Match the manuscript description to what is tested.
 4. **Stormont sensitivity:** the caretaker variant changes nine months (February–October 2022), not two or three. The documentation now reflects the implemented periods.

@@ -33,7 +33,7 @@ This is a research analysis, not a live monitoring service or a fact-checking cl
 
 ## Getting started
 
-Use Python 3.11 as a starting environment; the original execution environment was not supplied and dependencies are not a validated lockfile.
+All statistics in the manuscript were reproduced on 15 October 2026 with the package versions in `requirements-lock.txt` (`pip install -r requirements-lock.txt`). Newer releases of statsmodels (0.15+) and scipy (1.16+) break notebook 02, so use the lockfile.
 
 ```bash
 python -m venv .venv
